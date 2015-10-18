@@ -1,0 +1,22 @@
+#title{
+
+text-align:center;
+
+}
+
+#photo{
+float: left;
+}
+#email{
+float: left;
+}
+
+#phone{
+
+float: left;
+}
+
+.div_roni{
+position:relative;
+left:100px;
+}

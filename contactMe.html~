@@ -1,0 +1,40 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="contactMe.css">
+</head>
+<body>
+	<br> <br><a href="home.html">Home</a><br>
+	<a href="AboutMe.html">About Me! </a>
+<div id="title">
+<h1>I would like to get to know you better</h1>
+</div>
+
+<div id="photo">
+<img src="facebook.jpeg"  height="500" width="500"/>
+<br>
+<a href="https://www.facebook.com/nofar.dvir1">
+Contact me on my Facebook page</a>
+</div>
+
+
+
+<div id="email" style="text-align: left">
+<img src="email.jpeg"  height="500" width="500"/>
+<br>
+<p>type your Email address</p>
+</div>
+
+
+<div class="phone" style="text-align: right">
+<img src="phone.jpeg"  height="500" width="500"/>
+<br>
+<p>Send Me SMS</p>
+</div>
+
+
+</body>
+
+
+
+
+</html>
