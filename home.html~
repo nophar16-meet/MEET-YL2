@@ -1,28 +1,21 @@
 <html>
 	<head>
+	<link rel="stylesheet" type="text/css" href="home.css">
 	<title>Home page</title>
 
 	</head>
 
-	<body background=".jpg">
-	<br><br><a href="AboutMe.html">About Me </a><br>
+	<body background="home.jpg"> 
+	<br><br><a href="AboutMe.html">About Me! </a><br>
 	<a href="contactMe.html">Contact me</a>
 	<h1>Nofar Dvir</H1>
-        <h3>Welcome to my website<h3>
-	<p>It's a Pleasure To meet You!<p>
-	<img src="/tmp/guest-bmA1ea/Desktop/MEET-YL2/1093779_933974093286288_6631839163082525928_o.jpg"  height="250" width="500"/>
-	
-<p>I live in Jerusalem</p>
-<p>Im sixteen years old</p>
-
-        <p>my hobbies are:</p>
+	<p>warning: this is the best website ever<p>
+	<img src="me.jpg"  height="400" width="800"/>
+	<p>my hobbies are:</p>
 	<ul>
 	<li>play the sax</li>
 	<li>NOAM</li>
-	<li>learn new things</li>
-
-<p>Wanna know more? Click About me</p>
-
+	<li>hang out with friends</li>
 	
 	<form>
 	<!--<input type="password"><br>		
@@ -34,3 +27,4 @@
 	</form>
 	</body>
 </html>
+

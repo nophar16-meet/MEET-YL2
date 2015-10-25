@@ -1,29 +1,25 @@
 <html>
 <head>
+		<link rel="stylesheet" type="text/css" href="AboutMe.css">
+</head>
 <style>
-    h3.font {
+    li.font {
     font-family: "Comic Sans MS", cursive, sans-serif;
-}
 
 </style>
-</head>
-	<body background="http://www.salbii.com/wp-content/themes/salbii/images/wp-admin/layout-backgrounds/bgimg3.jpg"> 
-
+<body background="aboutmeBack.jpg"> 
 	<br><br><a href="home.html">Home </a><br>
 	<a href="contactMe.html">Contact me</a><br>
-	
-	<br><br><br><br><br><br><br><div  style="text-align: center">
-	<img src="sax1.jpeg"  height="500" width="500"/>
-	<a shape="circle">
-	<h3 class="font"> I play the saxophone for 7 years</h3>
+	<div>
+	<img class="fivesquare" src="sax1.jpeg"/>
+	<img id="pmove" src="noam.jpg"/>
+	<img id="phmove" src="meet.jpeg"/>
+	<br><br><br>
+	<li> I play the saxophone for 7 years</li><br><br>
+	<li> my youth movment named NOAM </li><br><br>
+	<li> I am a student in MEET program</li>
 	</div>
 
-
-	<div  style="text-align: left">
-	<img src=".jpeg"  height="500" width="500"/>
-	<h3 class="font">I guide in the youth movement NOAM</h3>
-	<a shape="circle">
-	</div>
 	
 </body>
 
