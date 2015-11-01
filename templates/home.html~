@@ -1,0 +1,33 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="{{url_for ('static',filename='home.css')}}">
+	<title>Home page</title>
+
+	</head>
+
+	<body background="{{url_for ('static',filename='me.jpg')}}"> 
+	<br><br><a href="{{url_for('hi')}}">About Me! </a><br>
+	<a class="a1" href="{{url_for('hey')}}">Contact me</a>
+	
+	<div>
+	<h1>Nofar Dvir</H1>
+	<p>warning: this is the best website ever<p>
+
+	<p>my hobbies are:</p>
+	<ul>
+	<li>play the sax</li>
+	<li>NOAM</li>
+	<li>hang out with friends</li>
+	</div>
+	
+	<form>
+	<!--<input type="password"><br>		
+	<input type="submit" value=Agree!><br>
+	<p>what is your gender?</p>
+	<p>Male</p><input type="radio">
+	<p>Female</p><input type="radio">
+	<p>Other</p><input type="radio">//-->
+	</form>
+	</body>
+</html>
+

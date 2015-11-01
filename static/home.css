@@ -1,0 +1,26 @@
+body {
+
+
+}
+a:link, a:visited {
+	display:block;
+	width:220px;
+	font-weight: bold;
+	color: #99004C;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+a:hover,a:active{
+	color: #404040;
+	text-decoration: none;
+	font-size: 24px;
+} 
+
+.a1 {
+	float:left;
+}
+
+

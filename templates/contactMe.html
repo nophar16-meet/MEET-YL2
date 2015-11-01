@@ -4,29 +4,31 @@
 	<link rel="stylesheet" type="text/css" href="contactMe.css">
 </head>
 <body background=".jpeg">
-	<br> <br><a href="home.html">Home</a><br>
-	<a href="AboutMe.html">About Me! </a>
+	<br> <br><a href="{{url_for('hello')}}">Home</a><br>
+	<a href="{{url_for('hi')}}">About Me! </a>
 <div id="title">
-<h1>I would like to hear your apinion</h1>
+<h1>Wanna know more? Contact me!</h1>
 </div>
 
 <div id="photo">
-<img src="facebook.png" height="200" width="200" />
+<img src="{{url_for ('static',filename='facebook.png')}}" height="200" width="200"/>
 <br> <a shape="circle">
-<a href="https://www.facebook.com/nofar.dvir1">
+<a href="https://www.facebook.com/nofar.dvir1?fref=ts">
 Contact me on my Facebook page</a>
 </div>
 
 
 <div class="email" style="text-align: left">
-<img src="mail.png"  height="200" width="200"/>
+<img src="{{url_for ('static',filename='mail.png')}}" 
+height="200" width="200"/>
 <br> <a shape="circle">
+
 <p>Send me an Email -Nofardvir1@gmail.com</p>
 </div>
 
 
 <div class="phone" style="text-align: right">
-<img src="instagram.png"  height="200" width="200"/>
+<img src="{{url_for ('static',filename='instagram.png')}}"  height="200" width="200"/>
 <br> <a shape="circle">
 <p>Follow me on Instagram - Nofar_Dvir1</p>
 </div>

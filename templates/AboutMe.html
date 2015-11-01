@@ -1,0 +1,29 @@
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="{{url_for ('static',filename='AboutMe.css')}}">
+</head>
+<style>
+    h3.font {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+</style>
+<body background="{{url_for ('static',filename='aboutmeBack.jpg')}}">  
+	<br><br><a href="{{url_for('hello')}}">Home </a><br>
+	<a href="{{url_for('hey')}}">Contact me</a><br>
+	<div>
+	<img class="fivesquare" src="{{url_for ('static',filename='sax1.jpeg')}}"/>
+	<img id="pmove" src="{{url_for ('static',filename='noam.jpg')}}"/>
+	<img id="phmove" src="{{url_for ('static',filename='meet.jpeg')}}"/>
+	<br><br><br>
+	<h3> I play the saxophone for 7 years</h3><br><br>
+	<h3> my youth movment named NOAM </h3><br><br>
+	<h3> I am a student in MEET program</h3>
+	</div>
+
+	
+</body>
+
+
+
+
+</html>
